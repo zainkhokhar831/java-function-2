@@ -1,12 +1,12 @@
 function reverse() {
-    let str = prompt("Enter a string to reverse:");
+    let str = prompt("Enter name:");
     
     if (str) {
         let reversedStr = str.split('').reverse().join(''); 
-        alert("Reversed string is: " + reversedStr);
+        alert("Reversed name is: " + reversedStr);
         return reversedStr; 
     } else {
-        alert("Please enter a valid string.");
+        alert("Please enter a valid Name.");
     }
 }
 reverse();
